@@ -272,6 +272,42 @@ st.markdown(f"""
 
 """, unsafe_allow_html=True)
 
+# ==============================================================================
+# 5. CORREÇÃO DE CONTRASTE POR DISPOSITIVO (ADICIONAR AO FINAL)
+# ==============================================================================
+st.markdown("""
+<style>
+    /* --- CONFIGURAÇÃO PARA COMPUTADOR (Telas Grandes) --- */
+    @media (min-width: 901px) {
+        /* Força fundo branco na seção 'Sobre' e Cards no PC */
+        .section-white, div[style*="background-color: #080808"] {
+            background-color: #FFFFFF !important;
+        }
+        /* Força letras pretas para leitura perfeita no PC */
+        .section-white h2, .section-white p,
+        div[style*="background-color: #080808"] h2, 
+        div[style*="background-color: #080808"] p,
+        div[style*="background-color: #080808"] li {
+            color: #1A1A1A !important;
+        }
+    }
+
+    /* --- CONFIGURAÇÃO PARA CELULAR (Telas Pequenas) --- */
+    @media (max-width: 900px) {
+        /* Mantém o visual que você já aprovou no celular (Fundo Escuro) */
+        div[style*="background-color: #080808"] {
+            background-color: #080808 !important;
+        }
+        div[style*="background-color: #080808"] h2, 
+        div[style*="background-color: #080808"] p,
+        div[style*="background-color: #080808"] li {
+            color: #FFFFFF !important;
+        }
+    }
+</style>
+""", unsafe_allow_html=True)
+
+
 
 
 
