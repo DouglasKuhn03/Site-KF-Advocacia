@@ -85,7 +85,7 @@ st.markdown("""
 
     /* CHECKLIST */
     .check-list li { 
-        font-size: 1.3rem; color: #DDD !important; 
+        font-size: 1.3rem; color: #1A1A1A !important; 
         margin-bottom: 1.5rem; list-style: none; 
         display: flex; align-items: center; 
         justify-content: flex-start; 
@@ -271,4 +271,5 @@ st.markdown(f"""
 </div>
 
 """, unsafe_allow_html=True)
+
 
