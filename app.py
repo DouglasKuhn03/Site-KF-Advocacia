@@ -204,7 +204,7 @@ with col1:
     # 2. TEXTO (Ajustado)
     st.markdown("""
     <div style="padding-left: 4rem; padding-right: 2rem;">
-        <p style="color: #CCCCCC; margin-bottom: 2rem; text-align: justify; font-size: 1.15rem;">
+        <p style="color: #1A1A1A; margin-bottom: 2rem; text-align: justify; font-size: 1.15rem;">
             A <strong>Kuhn & Fedrigo</strong> fundamenta sua atuação na análise técnica individualizada de cada demanda. Rejeitamos soluções padronizadas para priorizar uma investigação minuciosa de falhas procedimentais e nulidades administrativas que possam reverter a penalidade.
         </p>
     </div>
@@ -271,5 +271,6 @@ st.markdown(f"""
 </div>
 
 """, unsafe_allow_html=True)
+
 
 
