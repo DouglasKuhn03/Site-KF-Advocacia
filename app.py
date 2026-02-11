@@ -181,7 +181,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- SOBRE ---
-st.markdown('<div style="background-color: #080808; padding: 6rem 0; width: 100%;">', unsafe_allow_html=True)
+st.markdown('<div style="background-color: #FFFFFF; padding: 6rem 0; width: 100%;">', unsafe_allow_html=True)
 st.markdown('<div class="container-limit">', unsafe_allow_html=True)
 
 col1, col2 = st.columns([1.2, 1], gap="large")
@@ -196,7 +196,7 @@ with col1:
     <div style="padding-left: 4rem; padding-right: 2rem;">
         <div style="text-align: center;">
             <h4 class="gold-text" style="margin-bottom: 2rem; font-weight: 700;">ADVOCACIA ESPECIALIZADA</h4>
-            <h2 style="color: white !important; font-size: 3.5rem; margin-bottom: 2rem; font-family: 'Playfair Display', serif;">A Inteligência Jurídica contra a Burocracia.</h2>
+            <h2 style="color: #000000 !important; font-size: 3.5rem; margin-bottom: 2rem; font-family: 'Playfair Display', serif;">A Inteligência Jurídica contra a Burocracia.</h2>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -271,6 +271,7 @@ st.markdown(f"""
 </div>
 
 """, unsafe_allow_html=True)
+
 
 
 
