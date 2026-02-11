@@ -253,7 +253,7 @@ st.markdown(f"""
             <div style="text-align: center;">
                 <h4>CONTATO</h4>
                 <a href="{LINK_ZAP}" class="footer-link" style="color: #C5A059; font-weight: bold; font-size: 1.3rem;">📞 (49) 99995-89724</a>
-                <div class="footer-link">✉️ contato@advogadosk.com.br</div>
+                <div class="footer-link">✉️ contato@advogadoskf.com.br</div>
                 <div class="footer-link">🕒 Seg. a Sex. das 08h às 18h</div>
             </div>
             <div style="text-align: center;">
@@ -271,3 +271,4 @@ st.markdown(f"""
 </div>
 
 """, unsafe_allow_html=True)
+
