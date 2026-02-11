@@ -181,7 +181,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- SOBRE ---
-st.markdown('<div style="background-color: #FFFFFF; padding: 6rem 0; width: 100%;">', unsafe_allow_html=True)
+st.markdown('<div style="background-color: #080808; padding: 6rem 0; width: 100%;">', unsafe_allow_html=True)
 st.markdown('<div class="container-limit">', unsafe_allow_html=True)
 
 col1, col2 = st.columns([1.2, 1], gap="large")
@@ -271,6 +271,7 @@ st.markdown(f"""
 </div>
 
 """, unsafe_allow_html=True)
+
 
 
 
